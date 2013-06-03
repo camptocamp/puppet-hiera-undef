@@ -8,7 +8,7 @@ This module is provided by [Camptocamp](http://www.camptocamp.com/)
 
 The `hiera` functions for Puppet are currently limited by the fact that Puppet
 functions cannot receive the `undef` value as it gets munged before the function
-the receives it (see [ticket #20923](https://projects.puppetlabs.com/issues/20923)).
+receives it (see [ticket #20923](https://projects.puppetlabs.com/issues/20923)).
 
 This module provides replacement functions that do not accept a `default` parameter,
 but use `undef` instead.
