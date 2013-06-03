@@ -2,6 +2,9 @@
 
 [![Build Status](https://travis-ci.org/camptocamp/puppet-hiera-undef.png?branch=master)](https://travis-ci.org/camptocamp/puppet-hiera-undef)
 
+This module is provided by [Camptocamp](http://www.camptocamp.com/)
+
+## Why this module?
 
 The `hiera` functions for Puppet are currently limited by the fact that Puppet
 functions cannot receive the `undef` value as it gets munged before the function
@@ -36,7 +39,30 @@ with global parameters);
 will replace the calls to `hiera_undef()`.
 
 
-This module is provided by [Camptocamp](http://www.camptocamp.com/)
+## Example
+
+A simple example might explain better than words. In the following examples,
+the `foobar` variable is not found in any Hiera backends in the current scope:
+
+    notify { 'test':
+      message => hiera('foobar', undef),
+    }
+
+returns:
+
+    Notice: 
+    Notice: /Stage[main]//Notify[test]/message: defined 'message' as ''
+
+whereas:
+
+    notify { 'test':
+      message => hiera_undef('foobar'),
+    }
+
+returns:
+
+    Notice: test
+    Notice: /Stage[main]//Notify[test]/message: defined 'message' as 'test'
 
  
 ## Contributing
