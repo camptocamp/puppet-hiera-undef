@@ -1,6 +1,6 @@
 # Hiera-undef Puppet Module
 
-[![Puppet Forge](http://img.shields.io/puppetforge/v/camptocamp/hiera-undef.svg)](https://forge.puppetlabs.com/camptocamp/hiera-undef)
+[![Puppet Forge](http://img.shields.io/puppetforge/v/camptocamp/hiera_undef.svg)](https://forge.puppetlabs.com/camptocamp/hiera_undef)
 [![Build Status](https://travis-ci.org/camptocamp/puppet-hiera-undef.png?branch=master)](https://travis-ci.org/camptocamp/puppet-hiera-undef)
 
 This module is provided by [Camptocamp](http://www.camptocamp.com/)
