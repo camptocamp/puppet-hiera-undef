@@ -1,5 +1,3 @@
 ---
 .travis.yml:
-  secure_global_env:
-    # PUBLISHER_PASSWORD
-    - "B5c2z6PbLRZm25qXQMtqaa2sLWELw8fTyQCbpSTO9MB4LfwxL2gFXz0WAXZk\n2+UjrtfgVJpBWcnFTA2i5lVBflAWTYh8oK7Nfewhqknd6fh+DfOSNUyF0bJH\ndAY4N7sewM0UZ7nsTperPPL3HNZDZ8Gn6hiHyofoyaIxxVsDt8g="
+  forge_password: "IAciSAdOykdVQVq7fqYVH8YH7bELs0TFp5+2JK8nCdmBj2cnMn7fRM1H9JJ4sMAB9ihThoPRul9x/Cjo5bah+Ci7c+gDNPrls+IuEmDytcyIamoJMmvojUEWlJ63xO2gpGwQKZZ6TtlMGfoYpEpbYsLJUMywo64X4ErKVWv2RBQ="
