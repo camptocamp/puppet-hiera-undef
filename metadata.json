@@ -1,6 +1,6 @@
 {
   "name": "camptocamp-hiera_undef",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "author": "Camptocamp",
   "summary": "Puppet hiera_undef module",
   "license": "Apache 2.0",
@@ -30,7 +30,7 @@
       "operatingsystemrelease": [
         "10.04",
         "12.04",
-	"14.04"
+        "14.04"
       ]
     },
     {
@@ -52,5 +52,6 @@
     "3.6"
   ],
   "dependencies": [
+
   ]
 }
