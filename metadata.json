@@ -3,7 +3,7 @@
   "version": "1.1.5",
   "author": "Camptocamp",
   "summary": "Puppet hiera_undef module",
-  "license": "Apache 2.0",
+  "license": "Apache-2.0",
   "source": "https://github.com/camptocamp/puppet-hiera-undef",
   "project_page": "https://github.com/camptocamp/puppet-hiera-undef",
   "issues_url": "https://github.com/camptocamp/puppet-hiera-undef/issues",
