@@ -1,6 +1,6 @@
 {
   "name": "camptocamp-hiera_undef",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "author": "Camptocamp",
   "summary": "Puppet hiera_undef module",
   "license": "Apache-2.0",
